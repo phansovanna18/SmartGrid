@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <TextView
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:text="Do You Want To Logout?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/logout_btnNo"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/style_button_register"
+            android:textSize="25sp"
+            android:layout_alignParentStart="true"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:text="NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/logout_btnYes"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/style_button"
+            android:textSize="25sp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:text="Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>

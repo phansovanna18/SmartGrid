@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartgrid.ui.home.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.smartgrid.ui.control_device.ControlDeviceFragment"
+        android:label = "@string/menu_on_off_device"
+        tools:layout="@layout/fragment_control_device" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.smartgrid.ui.usage.UsageFragment"
+        android:label="@string/menu_usage_limitation"
+        tools:layout="@layout/fragment_usage" />
+
+    <fragment
+        android:id="@+id/nav_help_support"
+        android:name="com.example.smartgrid.ui.help_support.HelpSupportFragment"
+        android:label="@string/menu_help_support"
+        tools:layout="@layout/fragment_help_support" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.smartgrid.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.smartgrid.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_tools"-->
+<!--        android:name="com.example.smartgrid.ui.tools.ToolsFragment"-->
+<!--        android:label="@string/menu_tools"-->
+<!--        tools:layout="@layout/fragment_tools" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_share"-->
+<!--        android:name="com.example.smartgrid.ui.share.ShareFragment"-->
+<!--        android:label="@string/menu_share"-->
+<!--        tools:layout="@layout/fragment_share" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_send"-->
+<!--        android:name="com.example.smartgrid.ui.send.SendFragment"-->
+<!--        android:label="@string/menu_send"-->
+<!--        tools:layout="@layout/fragment_send" />-->
+</navigation>

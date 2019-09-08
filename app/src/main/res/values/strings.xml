@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SmartGrid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Start Energy</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_usage_limitation">Usage &amp; Limitation </string>
+    <string name="menu_on_off_device">On &amp; Off Device</string>
+    <string name="menu_help_support">Help and Support</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">LogOut</string>
+
+    <string name="login_title">Log In</string>
+    <string name="login_user">User Or Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgetPassword">Forget Password</string>
+    <string name="login_login">Sign In</string>
+    <string name="login_text">Create An Account</string>
+    <string name="login_register">Sign Up</string>
+
+    <string name="register_title">Sign Up</string>
+    <string name="register_user">User</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirmPassword">ConfirmPassword</string>
+    <string name="register_deviceID">Device ID</string>
+    <string name="register_text">Have an account?</string>
+
+    <array name="setting_menu">
+        <item>Account Setting</item>
+        <item>Language</item>
+        <item>Term &amp; Privacy Policy </item>
+        <item>About Us</item>
+    </array>
+</resources>
